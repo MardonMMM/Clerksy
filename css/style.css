@@ -1,0 +1,454 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #163A24;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* header */
+header{
+    height: 40px;
+    background-color: #163A24;
+    color: white;
+}
+.cler-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.cler-item2 .cler-text{
+    margin-left: 25px;
+}
+.cler-item2{
+    padding-right: 30px;
+}
+.cler-text3{
+    margin-left: 75px;
+    border: 2px solid #198C36;
+    padding: 11px 20px 11px 20px;
+    border-radius: 20px;
+    background-color: #198C36;
+    font-weight: 100;
+}
+/* header */
+/* info1 */
+.info1{
+    display: flex;
+justify-content: space-between;
+font-family: 'Patrick Hand', cursive;
+background-color: #163A24;
+}
+.info1 li{
+    list-style: none;
+}
+.info1-img{
+    height: 510px;
+    /* margin-top: 100px; */
+    padding-top: 50px;
+}
+.info1-item{
+    margin-top: 150px;
+    color: #FBFAF7;
+}
+.info1-item h1{
+    font-size: 48px;
+}
+.info1-item p{
+    line-height: 1.6;
+    font-size: 16px;
+}
+/* info1 */
+/* info2 */
+.info2-items{
+background-color: white;
+font-family: 'Patrick Hand', cursive;
+color: #163A24;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+.info2-items .info2-item h1{
+    font-size: 48px;
+}
+.info2-items .info2-item p{
+    line-height: 1.6;
+}
+.info2-items .info2-item{
+    margin-right: 150px;
+}
+.info2-items .info2-img{
+    margin-left: 70px;
+}
+/* info2 */
+section{
+    display: flex;
+   
+      background-color: white;
+  }
+/* info3 */
+.info3-items{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Patrick Hand', cursive; 
+    color: #163A24;
+}
+.info3-items .info3-text{
+    margin-top: 80px;
+}
+.info3-items .info3-text h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.info3-items .info3-text p{
+    line-height: 1.6;
+}
+/* info3 */
+/* menu */
+.menu-item{
+    /* display: flex; */
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive; 
+    margin-top: 100px;
+    color: #163A24;
+}
+.emb-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    list-style: none;
+    margin-left: 40px;
+    margin-bottom: 120px;
+}
+/* menu */
+/* hr-items */
+.hr{
+    font-family: 'Patrick Hand', cursive; 
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    color: white;
+}
+.hr-items{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+margin-bottom: 90px;
+
+}
+.hr-items p{
+    font-family: 'Patrick Hand', cursive; 
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+    margin-right: 130px;
+    color: white;
+    line-height: 1.6;
+    
+}
+/* hr-items */
+/* hr-2 */
+.hr-2{
+    margin-top: 95px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive; 
+    color: #163A24;
+    
+}
+.hr-2 h1{
+    font-size: 48px;
+}
+.hr-2 p{
+     line-height: 1.5;
+     margin: 0;
+}
+.hr-2 img{
+    margin-bottom: 80px;
+}
+/* hr-2 */
+
+/* info4 */
+.info4{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Patrick Hand', cursive; 
+    color: #163A24;
+    list-style: none;
+    margin-bottom: 100px;
+}
+.info4 h3{
+    font-size: 48px;
+    margin-top: 106px;
+
+}
+.info4 p{
+    line-height: 1.5;
+   
+}
+/* info4 */
+
+/* card1 */
+.card1 h1,p
+ {
+    font-family: 'Patrick Hand', cursive; 
+text-align: center;
+color: #163A24;
+    
+}
+.card1 h3{
+    font-size: 48px;
+
+}
+.card1-items{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Patrick Hand', cursive; 
+    color: #163A24;
+}
+.card1-items .card1-item{
+    border: 2px solid rgb(187, 187, 187);
+    padding: 40px;
+    box-shadow: 3px 3px rgb(201, 201, 201), -1em 0 0.4em rgb(197, 197, 197);
+    border-radius: 30px 0px 30px 0px;
+    margin-bottom: 85px;
+    
+}
+.card1-items .card1-item span{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.card1-items .card1-item img{
+    margin-bottom: 20px;
+}
+.card1-items .card1-item ul{
+    margin-top: 20px;
+    list-style: outside;
+}
+.card1-items .card1-item ul li{
+    line-height: 1.8;
+}
+
+.card1-item:hover{
+    border:2px solid red ;
+    border-radius: 0px 30px 0px 30px;
+    
+}
+
+/* card1 */
+/* info-buy */
+.buys h2,p{
+text-align: center;
+
+}
+.buys p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.buys h2{
+    font-size: 47px;
+}
+.buys{
+    margin-top: 140px;
+
+    font-family: 'Patrick Hand', cursive; 
+    color: #163A24;
+}
+.info-buy-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  list-style: none;
+
+}
+.info-buy-items li{
+    text-align: center;
+}
+.info-buy-items li h4{
+    font-size: 28px;
+}
+.buys button{
+    text-align: center;
+    margin: 2px 1em 0 auto;
+    padding: 14px 30px 14px 30px;
+    margin-left: 45%;
+    border-radius: 24px;
+    border: 1px solid #198C36;
+    background-color: #198C36;
+    color: white;
+    cursor: context-menu;
+    margin-bottom: 90px;
+}
+/* info-buy */
+
+/* info5 */
+.info5-items{
+display: flex;
+justify-content: space-around;
+font-family: 'Patrick Hand', cursive; 
+color: #163A24;
+list-style: none;
+margin-top: 130px;
+margin-bottom: 120px;
+}
+.info5-items h1{
+    font-size: 46px;
+    margin-top: 140px;
+}
+.info5-items p{
+    justify-content: start;
+    margin: 0;
+    margin-right: 120px;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+.info5-items button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: #198C36;
+    border: #198C36;
+  
+}
+/* info5 */
+/* section */
+.sec{
+    width: 100%;
+}
+.section-items{
+    display: flex;
+    /* justify-content: space-evenly; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive; 
+   color: white;
+   margin-top: 45px;
+}
+
+.section-items .section-img1{
+    float: left;
+   
+}
+.section-items .section-img2{
+    float: right;
+    margin-left: 150px;
+    
+}
+.section-text{
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    margin-left: 191px;
+}
+.section-text p{
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+.section-text button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    color: #163A24;
+    background-color: #FAB5A0;
+    border: #FAB5A0;
+}
+
+
+/* section */
+/* <!-- stay up  */
+.stayup-items{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Patrick Hand', cursive; 
+    color: #163A24;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.stayup-items .stayup-system .search{
+    width: 85%;
+   height: 50px;
+   border-radius: 30px;
+    background-color: white;
+    list-style: none;
+}
+.stayup-items .stayup-system .search li button{
+    float: right;
+    border-radius: 30px;
+    padding: 16px 30px 16px 30px;
+    border: #FBFAF7;
+    background-color: #198C36;
+    color: white;
+}
+.stayup-system p{
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+.stayup-system p a{
+    color: #198C36;
+    text-decoration: none;
+}
+/* <!-- stay up --> */
+/* footer1 */
+.foot-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #163A24;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.foot-items .foot-item2 h2{
+    font-family: 'Patrick Hand', cursive; 
+    color: #163A24;
+  margin-left: 190px;
+}
+.foot-items .foot-item3 .logotips {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+margin-right: 30px;
+}
+.foot-items .foot-item3 .logotips .logotip{
+    margin-right: 20px;
+}
+/* footer1 */
+/* hjjhjhj */
+.footers{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.footers .fots{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 40px;
+}
+.footers .fots .fot a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #198C36;
+    cursor: row-resize;
+    
+}
+.footers .footer1{
+    opacity: 0.8;
+}
+/* hjjhjhj */
